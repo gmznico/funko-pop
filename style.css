@@ -1,0 +1,113 @@
+/* Variables */
+:root {
+  --primario: #49beb7;
+  --secundario: #085f63;
+  --blanco: #ffffff;
+  --negro: #000000;
+}
+
+/* Utilidades */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 2;
+}
+
+/* Globales */
+a {
+  text-decoration: none;
+}
+
+.btn{
+    background-color: var(--primario);
+}
+
+/*- Navbar -*/
+.navbar{
+    font-size: 1.5rem;
+    background-color: var(--primario);
+}
+
+/*- Header -*/
+.header{
+    margin: 7rem 0;
+}
+.header_title, .header_paragraph{
+    padding: 0 0.5rem;
+}
+.header_title{
+    font-size: 4rem;
+}
+.header_paragraph{
+    font-size: 1.5rem;
+}
+.header_span{
+    color: var(--secundario);
+}
+.img{
+    width: 100%;
+}
+
+/*- Main -*/
+
+.container-text{
+    background-color: var(--primario);
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem 0;
+}
+
+.text{
+    font-size: 2.5rem;
+}
+
+#btn{
+    background-color: var(--primario);
+}
+#btn:hover{
+    background-color: var(--secundario);
+    color: var(--blanco);
+}
+
+.video{
+    background-color: var(--secundario);
+    padding: 2rem;
+    margin: 4rem 0;
+}
+
+
+/*- footer -*/
+.footer{
+    background-color: var(--primario)
+}
+.bx{
+    padding-left: 1rem;
+    font-size: 2.5rem;
+}
+.bxl-instagram-alt{
+    color: #C13584;
+}
+.bxl-github{
+    color: #171515;
+}
+.bxl-facebook{
+    color:#3b5998;
+}
+
+.bx:hover{
+    color: var(--secundario);
+}
+
+.copyright{
+    background-color: var(--secundario); 
+    font-size: 1.5rem;
+}
+
